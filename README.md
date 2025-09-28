@@ -7,8 +7,11 @@ I exploited the potential of Juce to create plugins in VST3, VST (vst-sdk-2.4), 
 I'm not at all sure it will work on another PC. The AAX plugin certainly won't work because it isn't activated. If you know the steps to follow according to the Avid\iLok guidelines and have the necessary tools (e.g. "AAX Validator" and "Pro Tools Developer") i think you can activate it after verifying that it works on Pro Tools.
 
 # Video Presentation 
-Video use original Mac release
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bhtOwvWZOy0/0.jpg)(https://www.youtube.com/watch?v=bhtOwvWZOy0)
+
+Video use Mac release from original guglielmofratticioli repo 
+(i thank him for his work, i hope didn't damage it, i'm not a programmer and have no computer knowledge and this fork is perhaps a presumptuous act by me, but not in my intentions).
 
 # build with Visual Studio Community Edition v17\2022
 It is best to ensure that your projects are all set to the C++17 language standard in particular ALL_BUILD, INSTALL, ZERO_CHECK, NeuVC_All, NeuVC_rc_lib .
