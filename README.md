@@ -7,7 +7,7 @@ I'm not at all sure it will work on another PC. The AAX plugin certainly won't w
 
 # Video Presentation 
 Video use original Mac release
-[![IMAGE ALT TEXT HERE].(https://img.youtube.com/vi/bhtOwvWZOy0/0.jpg)](https://www.youtube.com/watch?v=bhtOwvWZOy0)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bhtOwvWZOy0/0.jpg)(https://www.youtube.com/watch?v=bhtOwvWZOy0)
 
 # build with Visual Studio Community Edition v17\2022
 
