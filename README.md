@@ -21,7 +21,7 @@ then create a VS project with
 $ cmake .. -G"Visual Studio 17 2022" -A x64
 ```
 
-you can launch the .slnj and build it yourself
+you can launch the .sln and build it yourself
 
 I Used Cmake 4.1.1 and run through his gui, used also Juce version 8.0.10.
 Check the directories correspondence in the cmakelists.txt file and in some other source code files.
