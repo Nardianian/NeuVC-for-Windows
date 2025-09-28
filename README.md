@@ -10,15 +10,11 @@ Video use original Mac release
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bhtOwvWZOy0/0.jpg)(https://www.youtube.com/watch?v=bhtOwvWZOy0)
 
 # build with Visual Studio Community Edition v17\2022
-It is best to ensure that your projects are all set to the C++17 language standard in particular ALL_BUILD
-INSTALL
-ZERO_CHECK
-NeuVC_All
-NeuVC_rc_lib
+It is best to ensure that your projects are all set to the C++17 language standard in particular ALL_BUILD, INSTALL, ZERO_CHECK, NeuVC_All, NeuVC_rc_lib .
+Create folders in the "NeuVC\Assets" directory as in this repo.
+Set "test_rvc" as the solution startup project for Visual Studio.
 
-Set "test_rvc" as the solution startup project for Visual Studio
-
-put JUCE folder on the Thirdparty folder, then run
+Put JUCE folder on the Thirdparty folder, then run
 ```
 $ mkdir build 
 $ cd build
