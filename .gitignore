@@ -2,6 +2,5 @@ ThirdParty/JUCE
 build
 .vscode/
 NeuVC/Assets/traced/
-libomp
 libtorch
 NeuVC_Packaging
