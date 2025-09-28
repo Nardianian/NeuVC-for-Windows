@@ -2,6 +2,7 @@
 Neural based vst plugin for VoiceConversion. 
 Supports RVC and RVC2 trained models in pytorch .pth (python) and .pt (c++ traced) formats. 
 I adapted the original code for Windows, using Windows 11.
+If i remember correctly the "dlfcn" folder in "ThirdParty" directory is taken from this repo https://github.com/dlfcn-win32/dlfcn-win32 (version 1.4.2), go there for any updates.
 I exploited the potential of Juce to create plugins in VST3, VST (vst-sdk-2.4), LV2, AAX and standalone formats with Jack4Win support as well as ASIO.
 I'm not at all sure it will work on another PC. The AAX plugin certainly won't work because it isn't activated. If you know the steps to follow according to the Avid\iLok guidelines and have the necessary tools (e.g. "AAX Validator" and "Pro Tools Developer") i think you can activate it after verifying that it works on Pro Tools.
 
@@ -30,6 +31,9 @@ you can launch the .sln and build it yourself
 
 I Used Cmake 4.1.1 and run through his gui, used also Juce version 8.0.10.
 Check the directories correspondence in the cmakelists.txt file and in some other source code files.
+The code indicates other .pt model names. Search for them online. If they are in .pth format, convert them with the Python script in the repo.
+You can change the name either in the code itself (and recompile) or change directly the model file name.
+Check the directory where you want to load and to put the models directly from the code.
 
 # Install and run 
 
