@@ -29,7 +29,7 @@ $ cmake .. -G"Visual Studio 17 2022" -A x64
 
 you can launch the .sln and build it yourself
 
-I Used Cmake 4.1.1 and run through his gui, used also Juce version 8.0.10.
+I Used Cmake 4.1.1 and started the build process through his gui, used also Juce version 8.0.10 and Visual Studio Community Edition 2022 v17 updated to latest release.
 
 Check the directories correspondence in the cmakelists.txt file and in some other source code files.
 The code indicates other .pt model names. Search for them online. If they are in .pth format, convert them with the Python script in the repo.
